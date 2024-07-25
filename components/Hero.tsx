@@ -1,3 +1,4 @@
+import { FaLocationArrow } from "react-icons/fa6";
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
@@ -30,7 +31,7 @@ const Hero = () => {
           <TextGenerateEffect 
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
             // words="Bringing Ideas to Life with Perfect Integration"
-            words="Shaping Concepts into Intuitive Experiences"
+            words="Shaping Concepts into Intuitive User Experiences"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi, I&apos;m Aleš, a Next.js Developer based in Czech Republic 🇨🇿 
@@ -38,8 +39,8 @@ const Hero = () => {
           <a href="#about" className="">
             <MagicButton 
               title="Show my work"
-              icon
-              position=""
+              icon={<FaLocationArrow />}
+              position="right"
             />
           </a>
         </div>
