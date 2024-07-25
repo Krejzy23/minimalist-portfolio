@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./ui/GradientBg";
+import GridGlobe from "./ui/GridGlobe";
 
 export const BentoGrid = ({
   className,
@@ -70,7 +71,6 @@ export const BentoGridItem = ({
             <img
               src={spareImg}
               alt={spareImg}
-              //   width={220}
               className="object-cover object-center w-full h-full"
             />
           )}
@@ -96,7 +96,12 @@ export const BentoGridItem = ({
           >
             {title}
           </div>
+          {id === 2 && <GridGlobe />}
+
+
         </div>
+
+
       </div>
     </div>
   );
