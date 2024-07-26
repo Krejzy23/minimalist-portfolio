@@ -1,3 +1,5 @@
+"use client";
+
 import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/Pin";
@@ -14,11 +16,11 @@ const RecentProjects = () => {
         {projects.map(({ id, title, des, img, link, iconLists }) => (
           <div
             key={id}
-            className="sm:h-[41rem] lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw] "
+            className="sm:h-[41rem] lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-[570px] w-[80vw] "
           >
             <PinContainer title={title} href={link}>
               <div className="relative flex items-center justify-center mb-10 sm:w-[570px] sm:h-[40vh] w-[80vw] h-[30vh] overflow-hidden">
-                <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
+                <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162D]">
                   <img src="/bg.png" alt="bg-img" />
                 </div>
                 <img src={img} alt={title} className="absolute bottom-0 z-10" />
@@ -26,15 +28,21 @@ const RecentProjects = () => {
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {title}
               </h1>
-              <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
+              <p
+                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                style={{
+                  color: "#BEC1DD",
+                  margin: "1vh 0",
+                }}
+              >
                 {des}
               </p>
               <div className="flex items-center justify-between mt-7 mb-3">
                 <div className="flex items-center">
-                  {iconLists.map(( icon, index ) => (
+                  {iconLists.map((icon, index) => (
                     <div
                       className="flex justify-center items-center w-8 h-8 lg:w-10 lg:h-10 border border-white/[0.2] rounded-full bg-black"
-                      key={icon}
+                      key={index}
                       style={{
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
@@ -43,9 +51,12 @@ const RecentProjects = () => {
                     </div>
                   ))}
                 </div>
+                
                 <div className="flex justify-center items-center">
-                  <p className="flex text-sm lg:text-xl md:text-xs text-purple">Check Live Site</p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9"/>
+                  <p className="flex text-sm lg:text-xl md:text-xs text-purple">
+                    Check Live Site
+                  </p>
+                  <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>
             </PinContainer>
