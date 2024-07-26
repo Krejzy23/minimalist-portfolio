@@ -108,7 +108,7 @@ export const navItems = [
     {
       id: 1,
       quote:
-      "Partnering with you has been a remarkable journey. Your team's professionalism, efficiency, and unwavering dedication to achieving top-tier results were evident in every phase of our project. The passion you bring to each aspect of development is truly exceptional. If you're seeking a collaborator to transform your website and brand, you are the perfect choice.",
+      "Partnering with you has been a remarkable journey. Your professionalism, efficiency, and unwavering dedication to achieving top-tier results were evident in every phase of our project. The passion you bring to each aspect of development is exceptional. You're the perfect choice to transform my website and brand, and I highly recommend your services to others.",
       name: "Amelia Roberts",
       title: "UI/UIX Designer",
       img: "/person01.png"
@@ -116,7 +116,7 @@ export const navItems = [
     {
       id: 2,
       quote:
-        "Collaborating with you was fantastic. The professionalism, speed, and dedication to achieving exceptional results were clearly evident throughout our project. Your enthusiasm for every aspect of development truly stands out. If you're looking for someone to elevate your website and brand, you are the ideal partner.",
+      "Collaborating with you was fantastic. The professionalism, speed, and dedication to achieving exceptional results were clearly evident throughout our project. Your enthusiasm for development truly stands out. If you're looking for someone to elevate your website and brand, you are the ideal partner, bringing excellence, creativity, a unique perspective, and unparalleled passion to every project.",
       name: "Ava Lewis",
       title: "Chief Technology Officer",
       img: "/person02.png"
@@ -124,7 +124,7 @@ export const navItems = [
     {
       id: 3,
       quote:
-        "Working with your development team has been an exceptional experience. Their technical prowess, innovative approach, and attention to detail were evident in every aspect of the project. The team's ability to understand our needs and deliver beyond our expectations was truly impressive. If you need a development partner who can bring your ideas to life with precision and creativity, you are the right choice.",
+      "Working with your development team has been an exceptional experience. Their technical prowess, innovative approach, and attention to detail were evident in every aspect of the project. The team's ability to understand our needs and deliver beyond expectations was truly impressive. You are the right choice for precise and creative development.",
       name: "Sarah Moore",
       title: "Lead Software Engineer",
       img: "/person03.png"
@@ -132,7 +132,7 @@ export const navItems = [
     {
       id: 4,
       quote:
-        "Collaborating with your development team was an absolute game-changer for our project. The team's technical expertise, proactive communication, and relentless drive for excellence were apparent from the start. Your ability to innovate and solve complex challenges was instrumental in delivering a product that exceeded our expectations. If you're looking for a development partner to bring your vision to life, you are the best in the field.",
+      "Collaborating with your development team was a game-changer for our project. The team's technical expertise, proactive communication, and relentless drive for excellence were apparent from the start. Your ability to innovate and solve complex challenges was instrumental. You're the best choice to bring your vision to life, exceeding expectations.",
       name: "Ella Müller",
       title: "Lead Developer",
       img: "/person04.png"
@@ -140,7 +140,7 @@ export const navItems = [
     {
       id: 5,
       quote:
-        "Engaging with your team has highlighted your exceptional artistry and reliability. Your blend of creative excellence and dependable delivery is impressive. The team's flexibility in adapting to our needs, combined with competitive pricing, made the process seamless. High-quality results were delivered on time and within budget. For those seeking a development partner who values creativity, reliability, flexibility, and affordability, you are unmatched.",
+      "Engaging with your team has highlighted exceptional artistry and reliability. Your blend of creative excellence and dependable delivery is impressive. The team's flexibility in adapting to our needs, combined with competitive pricing, made the process seamless. High-quality results were delivered on time and within budget, showcasing unmatched creativity, reliability, and affordability.",
       name: "Jayden Davis",
       title: "Head of User Experience",
       img: "/person05.png"
