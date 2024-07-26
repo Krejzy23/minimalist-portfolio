@@ -106,35 +106,46 @@ export const navItems = [
   
   export const testimonials = [
     {
+      id: 1,
       quote:
         "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      name: "Amelia Roberts",
+      title: "UI/UIX Designer",
+      img: "/person01.png"
     },
     {
+      id: 2,
       quote:
         "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      name: "Ava Lewis",
+      title: "Chief Technology Officer",
+      img: "/person02.png"
     },
     {
+      id: 3,
       quote:
         "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      name: "Sarah Moore",
+      title: "Lead Software Engineer",
+      img: "/person03.png"
     },
     {
+      id: 4,
       quote:
         "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      name: "Ella Müller",
+      title: "Lead Developer",
+      img: "/person04.png"
     },
     {
+      id: 5,
       quote:
         "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      name: "Jayden Davis",
+      title: "Head of User Experience",
+      img: "/person05.png"
     },
+
   ];
   
   export const companies = [
