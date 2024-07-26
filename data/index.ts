@@ -108,7 +108,7 @@ export const navItems = [
     {
       id: 1,
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Partnering with you has been a remarkable journey. Your team's professionalism, efficiency, and unwavering dedication to achieving top-tier results were evident in every phase of our project. The passion you bring to each aspect of development is truly exceptional. If you're seeking a collaborator to transform your website and brand, you are the perfect choice.",
       name: "Amelia Roberts",
       title: "UI/UIX Designer",
       img: "/person01.png"
@@ -116,7 +116,7 @@ export const navItems = [
     {
       id: 2,
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+        "Collaborating with you was fantastic. The professionalism, speed, and dedication to achieving exceptional results were clearly evident throughout our project. Your enthusiasm for every aspect of development truly stands out. If you're looking for someone to elevate your website and brand, you are the ideal partner.",
       name: "Ava Lewis",
       title: "Chief Technology Officer",
       img: "/person02.png"
@@ -124,7 +124,7 @@ export const navItems = [
     {
       id: 3,
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+        "Working with your development team has been an exceptional experience. Their technical prowess, innovative approach, and attention to detail were evident in every aspect of the project. The team's ability to understand our needs and deliver beyond our expectations was truly impressive. If you need a development partner who can bring your ideas to life with precision and creativity, you are the right choice.",
       name: "Sarah Moore",
       title: "Lead Software Engineer",
       img: "/person03.png"
@@ -132,7 +132,7 @@ export const navItems = [
     {
       id: 4,
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+        "Collaborating with your development team was an absolute game-changer for our project. The team's technical expertise, proactive communication, and relentless drive for excellence were apparent from the start. Your ability to innovate and solve complex challenges was instrumental in delivering a product that exceeded our expectations. If you're looking for a development partner to bring your vision to life, you are the best in the field.",
       name: "Ella Müller",
       title: "Lead Developer",
       img: "/person04.png"
@@ -140,7 +140,7 @@ export const navItems = [
     {
       id: 5,
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+        "Engaging with your team has highlighted your exceptional artistry and reliability. Your blend of creative excellence and dependable delivery is impressive. The team's flexibility in adapting to our needs, combined with competitive pricing, made the process seamless. High-quality results were delivered on time and within budget. For those seeking a development partner who values creativity, reliability, flexibility, and affordability, you are unmatched.",
       name: "Jayden Davis",
       title: "Head of User Experience",
       img: "/person05.png"
