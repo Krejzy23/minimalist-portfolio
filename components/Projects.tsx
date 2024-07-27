@@ -18,64 +18,59 @@ const RecentProjects = () => {
         {projects.map(({ id, title, des, img, link, iconLists }) => (
           <CardContainer
             key={id}
-            className="relative flex w-[80vw] lg:min-h-[32.5rem] h-[25rem] sm:h-[41rem] sm:w-[570px] rounded-xl p-6 border dark:border-white/[0.2] border-black/[0.1]"
+            className="w-[80vw] lg:min-h-[32.5rem] h-[25rem] sm:h-[41rem] sm:w-[570px] rounded-xl border dark:border-white/[0.2] border-black/[0.1] p-5"
           >
-              <div className="absolute p-10 inset-0 w-full h-full overflow-hidden lg:rounded-3xl">
-                <img src="/bg.png" alt="bg-img" />
+            <CardBody className="relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] ">
+              <div className="absolute inset-0 w-full h-full overflow-hidden lg:rounded-3xl">
+                <img
+                  src="/bg.png"
+                  alt="bg-img"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
               </div>
-            <CardBody className="relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1]">
-              <CardItem translateZ="100" className="w-full">
-                <div className="relative w-full h-[20rem] overflow-hidden rounded-xl">
+              <CardItem translateZ="100" className="relative z-10 flex items-center justify-center">
+                <div className="w-full h-full flex items-center justify-center overflow-hidden rounded-xl">
                   <img
                     src={img}
                     alt={title}
-                    className="group-hover/card:shadow-xl"
+                    className="group-hover/card:shadow-xl object-contain max-h-full"
                   />
                 </div>
               </CardItem>
               <CardItem
-                translateZ="50"
-                className="text-xl font-bold text-neutral-600 dark:text-white mt-4"
+                translateZ="80"
+                className="text-xl font-bold text-neutral-600 dark:text-white mt-4 relative z-10"
               >
                 {title}
               </CardItem>
               <CardItem
                 as="p"
                 translateZ="60"
-                className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 relative z-10"
                 style={{
                   color: "#BEC1DD",
                 }}
               >
                 {des}
               </CardItem>
-              <div className="flex items-center justify-between mt-7 mb-3">
+              <div className="flex items-center justify-between mt-7 mb-3 relative z-10">
                 <div className="flex items-center">
                   {iconLists.map((icon, index) => (
                     <CardItem
-                      translateZ={80}
+                      translateZ={40}
                       key={index}
                       className="flex justify-center items-center w-8 h-8 lg:w-10 lg:h-10 border border-white/[0.2] rounded-full bg-black"
-                      style={{
-                        transform: `translateX(-${5 * index + 2}px)`,
-                      }}
                     >
-                      <Image
-                        src={icon}
-                        alt={icon}
-                        width={96}
-                        height={96}
-                        className="p-2 "
-                      />
+                      <img src={icon} alt={icon} className="p-2" />
                     </CardItem>
                   ))}
                 </div>
                 <CardItem
-                  translateZ={20}
+                  translateZ={50}
                   as={Link}
                   href={link}
                   target="__blank"
-                  className="flex items-center"
+                  className="flex justify-center items-center"
                 >
                   <p className="flex text-sm lg:text-xl md:text-xs text-purple">
                     Check Live Site

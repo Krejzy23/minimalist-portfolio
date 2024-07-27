@@ -1,4 +1,8 @@
 import React from 'react'
+import Projects from './Projects'
+
+
+
 
 
 
@@ -6,7 +10,7 @@ import React from 'react'
 const Experience = () => {
   return (
     <div>
-       exp
+       <Projects/>
     </div>
   )
 }
