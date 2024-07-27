@@ -23,7 +23,7 @@ const Hero = () => {
 
       <div className="absolute top-0 left-0 h-full w-full flex items-center justify-center">
         <div className="absolute top-0 left-0 h-full w-full overflow-hidden">
-          <Boxes className="w-full h-full opacity-50" />
+          <Boxes className="hidden md:flex w-full h-full opacity-50" />
         </div>
       </div>
 

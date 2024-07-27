@@ -90,11 +90,11 @@ export const InfiniteMovingCards = ({
         {items.map((item, idx) => (
           <li
             className="w-[90vw] max-w-full relative rounded-2xl border flex-shrink-0 border-slate-800 p-5 md:p-16 md:w-[60vw] dark:bg-black-100 bg-white dark:bg-grid-white/[0.04] bg-grid-black/[0.2]"
-            // style={{
-            //   background: "rgb(2,0,36)",
-            //   backgroundColor:
-            //     "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,59,68,1) 35%, rgba(98,108,111,1) 100%)",
-            // }}
+            style={{
+              background: "rgb(2,0,36)",
+              backgroundColor:
+                "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,59,68,1) 35%, rgba(98,108,111,1) 100%)",
+            }}
             key={idx}
           >
             <blockquote>

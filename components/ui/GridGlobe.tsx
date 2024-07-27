@@ -393,6 +393,17 @@ const GridGlobe = () => {
       color: colors[Math.floor(Math.random() * (colors.length - 1))],
     },
   ];
+  sampleArcs.forEach((arc, index) => {
+    if (
+      isNaN(arc.startLat) ||
+      isNaN(arc.startLng) ||
+      isNaN(arc.endLat) ||
+      isNaN(arc.endLng) ||
+      isNaN(arc.arcAlt)
+    ) {
+      console.error(`Invalid coordinates in sampleArcs at index ${index}`, arc);
+    }
+  });
 
   return (
     // remove dark:bg-black bg-white h-screen md:h-auto  w-full flex-row py-20
