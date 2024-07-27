@@ -7,7 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { CardBody, CardContainer, CardItem } from "./ui/Card3d";
 
-const RecentProjects = () => {
+const Projects = () => {
   return (
     <section id="projects" className="py-20">
       <h1 className="heading">
@@ -86,4 +86,4 @@ const RecentProjects = () => {
   );
 };
 
-export default RecentProjects;
+export default Projects;
