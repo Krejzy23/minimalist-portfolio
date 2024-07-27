@@ -18,9 +18,9 @@ const RecentProjects = () => {
         {projects.map(({ id, title, des, img, link, iconLists }) => (
           <CardContainer
             key={id}
-            className="w-[80vw] lg:min-h-[32.5rem] h-[25rem] sm:h-[41rem] sm:w-[570px] rounded-xl border dark:border-white/[0.2] border-black/[0.1] p-5"
+            className="w-[80vw] lg:min-h-[32.5rem] h-[30rem] sm:h-[41rem] sm:w-[570px] rounded-xl border dark:border-white/[0.2] border-black/[0.1] p-5"
           >
-            <CardBody className="relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] ">
+            <CardBody className="relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] p-5 ">
               <div className="absolute inset-0 w-full h-full overflow-hidden lg:rounded-3xl">
                 <img
                   src="/bg.png"
