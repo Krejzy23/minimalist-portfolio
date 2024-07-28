@@ -14,7 +14,7 @@ const Projects = () => {
         A small selection of my{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-24 mt-10">
         {projects.map(({ id, title, des, img, link, iconLists }) => (
           <CardContainer
             key={id}
@@ -29,7 +29,7 @@ const Projects = () => {
                 />
               </div>
               <CardItem
-                translateZ="100"
+                translateZ={100}
                 className="relative z-10 flex items-center justify-center"
               >
                 <div className="w-full h-full flex items-center justify-center overflow-hidden rounded-xl">
@@ -41,14 +41,14 @@ const Projects = () => {
                 </div>
               </CardItem>
               <CardItem
-                translateZ="80"
+                translateZ={80}
                 className="text-xl font-bold text-neutral-600 dark:text-white mt-8 relative z-10"
               >
                 {title}
               </CardItem>
               <CardItem
                 as="p"
-                translateZ="60"
+                translateZ={60}
                 className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 relative z-10"
                 style={{
                   color: "#BEC1DD",
@@ -57,16 +57,14 @@ const Projects = () => {
                 {des}
               </CardItem>
               <div className="flex items-center justify-between mt-10 mb-3 relative z-10">
-                <div className="flex items-center ">
+                <div className="flex items-center">
                   {iconLists.map((icon, index) => (
                     <CardItem
                       key={index}
                       className="flex justify-center items-center w-8 h-8 lg:w-10 lg:h-10 border border-white/[0.2] rounded-full bg-black"
-                      style={{
-                        transform:`translateX(-${5 * index + 2}px)`,
-                      }}
-                      >
-                        <Image src={icon} alt={icon} width={96} height={96} className="p-2" />
+                      translateZ={40 - index * 10}
+                    >
+                      <Image src={icon} alt={icon} width={96} height={96} className="p-2" />
                     </CardItem>
                   ))}
                 </div>

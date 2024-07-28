@@ -45,6 +45,7 @@ export const CardContainer = ({
     setIsMouseEntered(false);
     containerRef.current.style.transform = `rotateY(0deg) rotateX(0deg)`;
   };
+
   return (
     <MouseEnterContext.Provider value={[isMouseEntered, setIsMouseEntered]}>
       <div
@@ -70,7 +71,6 @@ export const CardContainer = ({
             background: "rgb(2,0,36)",
             backgroundColor:
               "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,59,68,1) 35%, rgba(98,108,111,1) 100%)",
-
           }}
         >
           {children}
@@ -90,7 +90,7 @@ export const CardBody = ({
   return (
     <div
       className={cn(
-        "w-full h-full [transform-style:preserve-3d]  [&>*]:[transform-style:preserve-3d]",
+        "w-full h-full [transform-style:preserve-3d] [&>*]:[transform-style:preserve-3d]",
         className
       )}
     >
@@ -149,7 +149,7 @@ export const CardItem = ({
   );
 };
 
-// Create a hook to use the context
+
 export const useMouseEnter = () => {
   const context = useContext(MouseEnterContext);
   if (context === undefined) {

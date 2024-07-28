@@ -3,8 +3,8 @@
 import Clients from "@/components/Clients";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
-import RecentProjects2 from "@/components/RecentProjects2";
-import RecentProjects from "@/components/RecentProjects";
+import Projects from "@/components/Projects";
+
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 import Experience from "@/components/Experience";
@@ -20,7 +20,7 @@ const Home=()=> {
         <Hero />
         <Grid />
         {/* <RecentProjects /> */}
-        <RecentProjects2/>
+        <Projects/>
         <Clients />
         <Experience />
         <Approach />
