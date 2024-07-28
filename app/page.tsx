@@ -8,6 +8,7 @@ import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 import Experience from "@/components/Experience";
+import Approach from "@/components/Approach";
 
 
 const Home=()=> {
@@ -21,6 +22,7 @@ const Home=()=> {
         <RecentProjects2/>
         <Clients />
         <Experience />
+        <Approach />
       </div>
     </main>
   );
