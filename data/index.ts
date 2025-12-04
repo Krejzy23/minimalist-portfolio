@@ -172,14 +172,14 @@ export const navItems = [
     {
       id: 3,
       name: "Kali",
-      img: "/Kali.svg",
+      img: "/kali.svg",
       nameImg: "/Kali_Linux.svg",
     },
     {
       id: 4,
       name: "ubuntu",
-      img: "/ubuntu_logo.svg",
-      nameImg: "/ubuntu_name.svg",
+      img: "/Ubuntu_logo.svg",
+      nameImg: "/Ubuntu_name.svg",
     },
     {
       id: 5,
