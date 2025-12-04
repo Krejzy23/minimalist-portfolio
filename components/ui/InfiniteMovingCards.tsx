@@ -82,14 +82,14 @@ export const InfiniteMovingCards = ({
       <ul
         ref={scrollerRef}
         className={cn(
-          "flex min-w-full shrink-0 gap-12 py-4 w-max flex-nowrap ",
+          "flex min-w-full shrink-0 gap-12 py-2 w-max flex-nowrap ",
           start && "animate-scroll ",
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
         {items.map((item, idx) => (
           <li
-            className="w-[90vw] max-w-full relative rounded-2xl border flex-shrink-0 border-slate-800 p-5 md:p-16 md:w-[60vw] dark:bg-black-100 bg-white dark:bg-grid-white/[0.04] bg-grid-black/[0.2]"
+            className="w-[90vw] max-w-full relative rounded-2xl border flex-shrink-0 border-slate-800 p-5 md:p-16 md:w-[70vw] dark:bg-black-100 bg-white dark:bg-grid-white/[0.04] bg-grid-black/[0.2]"
             style={{
               background: "rgb(2,0,36)",
               backgroundColor:
@@ -102,22 +102,28 @@ export const InfiniteMovingCards = ({
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
-              <span className="relative z-20 text-sm md:text-lg leading-[1.6] text-white font-normal">
-                {item.quote}
-              </span>
-              <div className="relative z-20 mt-6 flex items-center">
+              <div className="flex flex-col z-20 items-center">
+                <div className="flex flex-col md:justify-start">
+                <span className="text-xl leading-[1.6] text-white font-semibold">
+                  {item.name}
+                </span>
+                <span className="text-sm -mt-2 px-2 leading-[1.6] text-white-200 font-normal">
+                  {item.title}
+                </span>
+
+
+                </div>
+                <div className="flex flex-col items-center md:flex-row md:items-start md:justify-between z-20 mt-6">
                 <img
                   src={item.img}
                   alt={item.name}
-                  className="w-10 h-10 rounded-full md:w-12 md:h-12 mr-4"
+                  className="rounded-md w-[206px] h-[101px] md:w-[412px] md:h-[201px] mb-4 md:mb-0 md:mr-6"
                 />
-                <div className="flex flex-col gap-1">
-                  <span className="text-xl leading-[1.6] text-white font-semibold">
-                    {item.name}
-                  </span>
-                  <span className="text-sm -mt-2 leading-[1.6] text-white-200 font-normal">
-                    {item.title}
-                  </span>
+                <span className="relative mt-2 z-20 text-sm md:text-lg leading-[1.6] text-white font-normal">
+                  {item.quote}
+                </span>
+
+
                 </div>
               </div>
             </blockquote>

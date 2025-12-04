@@ -48,7 +48,7 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
 
-  const leftLists = ["React.JS", "Express", "Typescript"];
+  const leftLists = ["React.JS", "Python", "Typescript"];
   const rightLists = ["JavaScript", "Tailwind", "Node.Js"];
 
   const [copied, setCopied] = useState(false);
@@ -156,6 +156,17 @@ export const BentoGridItem = ({
               </div>
             </div>
           )}
+
+
+{ id === 4 && (
+    <div className="w-full h-full flex items-center justify-center">
+        <iframe
+            src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2393152"
+            className="w-full h-full rounded-xl"
+            style={{ border: "none" }}
+        ></iframe>
+    </div>
+)}
           {id === 6 && (
             <div className="mt-5 relative">
               {/* button border magic from tailwind css buttons  */}

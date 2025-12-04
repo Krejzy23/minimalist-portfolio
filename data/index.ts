@@ -1,7 +1,7 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Toolkits", link: "#toolkits" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -38,7 +38,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
+      title: "My progress on the Cyber security learning platform",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently working automatization script",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,19 +72,19 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
+      title: "Awsome Photographer Portofolio",
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
+      img: "/p1.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://live-text-three.vercel.app/",
+      link: "https://photo-sand.vercel.app/",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
+      title: "Projects Portfolio",
+      des: "A page showcasing all my projects with simple descriptions and links to live previews.",
+      img: "/p2.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://taskflow-murex.vercel.app/",
+      link: "https://projects-portfolio-gray.vercel.app/",
     },
     {
       id: 3,
@@ -104,46 +104,54 @@ export const navItems = [
     },
   ];
   
-  export const testimonials = [
+  export const toolkits = [
     {
       id: 1,
       quote:
-      "Partnering with you has been a remarkable journey. Your professionalism, efficiency, and unwavering dedication to achieving top-tier results were evident in every phase of our project. The passion you bring to each aspect of development is exceptional. You're the perfect choice to transform my website and brand, and I highly recommend your services to others.",
-      name: "Amelia Roberts",
-      title: "UI/UIX Designer",
-      img: "/person01.png"
+      "Pwnagotchi runs on a Raspberry Pi Zero W, uses bettercap, and learns from nearby WiFi networks to capture as many crackable WPA handshakes as possible. It saves them as PCAP files compatible with hashcat, including WPA handshakes and PMKIDs.",
+      name: "Pwnagotchi",
+      title: "Wi-Fi testing",
+      img: "/pwngotchi1.png"
     },
     {
       id: 2,
       quote:
-      "Collaborating with you was fantastic. The professionalism, speed, and dedication to achieving exceptional results were clearly evident throughout our project. Your enthusiasm for development truly stands out. If you're looking for someone to elevate your website and brand, you are the ideal partner, bringing excellence, creativity, a unique perspective, and unparalleled passion to every project.",
-      name: "Ava Lewis",
-      title: "Chief Technology Officer",
-      img: "/person02.png"
+      "Kali NetHunter on a rooted Samsung Galaxy S20 FE 5G provides a full-featured mobile pentesting setup. With root access, it supports advanced tools like HID attacks, WiFi injection, and a complete chroot environment, enabling powerful on-device security testing.",
+      name: "Nethunter Kali Linux",
+      title: "Unix system in mobile phone",
+      img: "/NetHunter.png"
     },
     {
       id: 3,
       quote:
-      "Working with your development team has been an exceptional experience. Their technical prowess, innovative approach, and attention to detail were evident in every aspect of the project. The team's ability to understand our needs and deliver beyond expectations was truly impressive. You are the right choice for precise and creative development.",
-      name: "Sarah Moore",
-      title: "Lead Software Engineer",
-      img: "/person03.png"
+      "Bruce firmware on the M5Stick C Plus2 turns the device into a versatile ESP32-based offensive tool. It supports a wide range of red-team features and works seamlessly with M5Stack devices, making it a compact and powerful platform for on-the-go security operations.",
+      name: "M5StickC PLUS2",
+      title: "ESP32 Mini IoT",
+      img: "/M5stack.png"
     },
     {
       id: 4,
       quote:
-      "Collaborating with your development team was a game-changer for our project. The team's technical expertise, proactive communication, and relentless drive for excellence were apparent from the start. Your ability to innovate and solve complex challenges was instrumental. You're the best choice to bring your vision to life, exceeding expectations.",
-      name: "Ella Müller",
-      title: "Lead Developer",
-      img: "/person04.png"
+      "The WiFi Pineapple Cloner running on a Shadow GL‑AR300M16‑Ext replicates core Pineapple features on OpenWRT hardware. With two added RTL5370 antennas, it becomes a compact device for wireless audits, supporting rogue AP setups, handshake capture, and other WiFi-focused red‑team tasks.",
+      name: "Pineapple clone",
+      title: "Wi-Fi testing",
+      img: "/Router.png"
     },
     {
       id: 5,
       quote:
-      "Engaging with your team has highlighted exceptional artistry and reliability. Your blend of creative excellence and dependable delivery is impressive. The team's flexibility in adapting to our needs, combined with competitive pricing, made the process seamless. High-quality results were delivered on time and within budget, showcasing unmatched creativity, reliability, and affordability.",
-      name: "Jayden Davis",
-      title: "Head of User Experience",
-      img: "/person05.png"
+      "A Rubber Ducky running on an RPi Pico 2 uses custom payloads to emulate a USB keyboard and execute automated keystroke attacks. It injects predefined commands at high speed, allowing scripted actions like opening applications, typing commands, or modifying system settings on the target device.",
+      name: "Rubber Ducky",
+      title: "USB HID Attack",
+      img: ""
+    },
+    {
+      id: 6,
+      quote:
+      "The Deauther firmware on a NodeMCU ESP8266 with a 0.96 OLED display allows you to scan nearby WiFi networks, send deauthentication and beacon attacks, and manage basic wireless testing functions directly from the device’s built‑in screen.",
+      name: "Deauther",
+      title: "Wi-Fi testing",
+      img: "/deauth.png"
     },
 
   ];
@@ -151,33 +159,33 @@ export const navItems = [
   export const companies = [
     {
       id: 1,
-      name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
+      name: "Linux",
+      img: "/Linux_logo.svg",
+      nameImg: "/Linux.svg",
     },
     {
       id: 2,
-      name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
+      name: "OpenWrt",
+      img: "/OpenWrt.svg",
+      nameImg: "/OpenWrt_Logo.svg",
     },
     {
       id: 3,
-      name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
+      name: "Kali",
+      img: "/Kali.svg",
+      nameImg: "/Kali_Linux.svg",
     },
     {
       id: 4,
-      name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
+      name: "ubuntu",
+      img: "/ubuntu_logo.svg",
+      nameImg: "/ubuntu_name.svg",
     },
     {
       id: 5,
-      name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
+      name: "graphene",
+      img: "/GrapheneOS_logo.svg",
+      nameImg: "/GrapheneOs.svg",
     },
   ];
   
@@ -205,7 +213,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
+      title: "Cybersecurity",
       desc: "Developed and maintained user-facing features using modern frontend technologies.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
