@@ -75,32 +75,32 @@ export const navItems = [
       title: "Awsome Photographer Portofolio",
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
       img: "/p1.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      iconLists: ["/re.svg","/vite.svg","/javascript.svg", "/tail.svg",  "/gsap.svg"],
       link: "https://photo-sand.vercel.app/",
     },
     {
       id: 2,
       title: "Projects Portfolio",
-      des: "A page showcasing all my projects with simple descriptions and links to live previews.",
+      des: "A page showcasing all my projects, complete with simple descriptions, links to live previews, plenty of animations, and a unique, eye-catching design.",
       img: "/p2.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
       link: "https://projects-portfolio-gray.vercel.app/",
     },
     {
       id: 3,
       title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      des: "A fully featured SaaS application with AI capabilities, a payment and credits system, and the latest tech stack — focused on powerful photo editing.",
+      img: "/p3.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/cloud.svg", "/c.svg", "mongodb.svg"],
       link: "https://image-ai-nu.vercel.app/",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://i-phone15-pro.vercel.app/",
+      title: "3D Portfolio",
+      des: "A unique personal portfolio with 3D visuals, animations, and a bold design that tells my story.",
+      img: "/p4.png",
+      iconLists: ["/re.svg","/vite.svg","/javascript.svg", "/tail.svg",  "/three.svg", "/fm.svg"],
+      link: "https:developer-portfolio-green.vercel.app/",
     },
   ];
   
@@ -143,7 +143,7 @@ export const navItems = [
       "A Rubber Ducky running on an RPi Pico 2 uses custom payloads to emulate a USB keyboard and execute automated keystroke attacks. It injects predefined commands at high speed, allowing scripted actions like opening applications, typing commands, or modifying system settings on the target device.",
       name: "Rubber Ducky",
       title: "USB HID Attack",
-      img: ""
+      img: "/Rubber.png"
     },
     {
       id: 6,

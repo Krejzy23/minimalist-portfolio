@@ -157,14 +157,17 @@ export const BentoGridItem = ({
           )}
 
           {id === 4 && (
-            <div className="w-full h-full flex items-center justify-center">
-              <iframe
-                src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2393152"
-                className="w-full h-full rounded-xl"
-                style={{ border: "none" }}
-              ></iframe>
+            <div className="flex items-center justify-center w-full">
+              <div className="w-80 h-20 rounded-xl overflow-hidden bg-[#0d0f1a]">
+                <iframe
+                  src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2393152"
+                  className="w-full h-full"
+                  style={{ border: "none" }}
+                ></iframe>
+              </div>
             </div>
           )}
+
           {id === 6 && (
             <div className="mt-5 relative">
               {/* button border magic from tailwind css buttons  */}
