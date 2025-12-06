@@ -8,6 +8,7 @@ import GridGlobe from "./ui/GridGlobe";
 import { IoCopyOutline } from "react-icons/io5";
 import MagicButton from "./MagicButton";
 import animationData from "@/data/confetti.json";
+import { cyberSkills } from "@/data";
 
 export const BentoGrid = ({
   className,
@@ -165,6 +166,23 @@ export const BentoGridItem = ({
                   style={{ border: "none" }}
                 ></iframe>
               </div>
+            </div>
+          )}
+
+          {id === 5 && (
+            <div className="flex flex-wrap justify-center gap-10 mt-24">
+              {cyberSkills.map(({ id, img, name }) => (
+                <div
+                  key={id}
+                  className="group glassmorhism relative p-4 rounded-2xl border border-cyan-400/20 hover:border-cyan-400/60 shadow-[0_0_20px_rgba(0,255,255,0.15)] hover:shadow-[0_0_25px_rgba(0,255,255,0.35)] transition"
+                >
+                  <img
+                    src={img}
+                    alt={name}
+                    className="w-12 group-hover:scale-110 transition"
+                  />
+                </div>
+              ))}
             </div>
           )}
 
