@@ -54,7 +54,7 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-start",
-    img: "/b5.svg",
+    img: "/defensive.svg",
     spareImg: "/grid.svg",
   },
   {
@@ -159,18 +159,18 @@ export const toolkits = [
 export const cyberSkills = [
   {
     id: 1,
-    name: "kali",
-    img: "/kali.svg",
+    name: "Metasploit",
+    img: "/metasploit.svg",
   },
   {
     id: 2,
-    name: "Open",
-    img: "/OpenWrt.svg",
+    name: "Burp",
+    img: "/burpsuite.svg",
   },
   {
     id: 3,
-    name: "Graphene",
-    img: "/GrapheneOS_logo.svg",
+    name: "Wireshark",
+    img: "/wireshark.svg",
   },
   {
     id: 4,
@@ -179,8 +179,8 @@ export const cyberSkills = [
   },
   {
     id: 5,
-    name: "Next",
-    img: "/next.svg",
+    name: "Defensive",
+    img: "/defensive.svg",
   },
 ];
 

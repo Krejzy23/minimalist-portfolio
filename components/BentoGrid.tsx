@@ -170,17 +170,21 @@ export const BentoGridItem = ({
           )}
 
           {id === 5 && (
-            <div className="flex flex-wrap justify-center gap-10 mt-24">
+            <div className="flex flex-wrap gap-12 mt-14">
               {cyberSkills.map(({ id, img, name }) => (
                 <div
                   key={id}
-                  className="group glassmorhism relative p-4 rounded-2xl border border-cyan-400/20 hover:border-cyan-400/60 shadow-[0_0_20px_rgba(0,255,255,0.15)] hover:shadow-[0_0_25px_rgba(0,255,255,0.35)] transition"
+                  className="relative group p-4 rounded-2xl border border-cyan-400/20 hover:border-cyan-400/60 shadow-[0_0_30px_rgba(0,255,255,0.15)] hover:shadow-[0_0_35px_rgba(0,255,255,0.35)] transition"
                 >
                   <img
                     src={img}
                     alt={name}
-                    className="w-12 group-hover:scale-110 transition"
+                    className="w-10 md:w-14 group-hover:scale-110 transition"
                   />
+
+                  <p className="flex items-center justify-center text-center mt-2 text-xs opacity-60 group-hover:opacity-100 transition">
+                    {name}
+                  </p>
                 </div>
               ))}
             </div>
