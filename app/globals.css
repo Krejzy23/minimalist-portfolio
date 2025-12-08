@@ -72,9 +72,10 @@
     --input: 240 3.7% 15.9%;
     --ring: 240 4.9% 83.9%;
   }
+  
 }
 
-@layer base {
+ @layer base {
   * {
     @apply border-border !scroll-smooth;
   }
@@ -84,9 +85,9 @@
   button {
     @apply active:outline-none;
   }
-}
+ }
 
-@layer utilities {
+ @layer utilities {
   .heading {
     @apply font-bold text-4xl md:text-5xl text-center;
   }
@@ -94,4 +95,12 @@
   .black-gradient {
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
-}
+ }
+
+
+
+
+
+
+
+

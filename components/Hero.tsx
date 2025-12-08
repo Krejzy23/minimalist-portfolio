@@ -1,6 +1,6 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import React from "react";
-import { Spotlight } from "./ui/Spotlight";
+import { LeftSpotlight, RightSpotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./MagicButton";
 import { FlipWords } from "./ui/FlipWords";
@@ -8,22 +8,22 @@ import { Boxes } from "./ui/Boxes";
 
 const Hero = () => {
   return (
-    <div className="relative pb-20 pt-32 h-screen">
-      <div>
-        <Spotlight
-          className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
-          fill="white"
-        />
-        <Spotlight
-          className="top-10 left-full h-[80vh] w-[50vw]"
-          fill="purple"
-        />
-        <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
+    <div className="relative pb-20 pt-32 h-screen w-full">
+      <div className="">
+        {/* Left-facing spotlights */}
+        <LeftSpotlight className="top-10 -left-10 h-screen w-52 md:w-96" fill="white" />
+        <LeftSpotlight className="top-10 left-10 h-[80vh] w-52 md:w-96" fill="purple" />
+        <LeftSpotlight className="bottom-10 left-10 h-full w-52 md:w-96" fill="blue" />
+
+        {/* Right-facing spotlights pointing from right to center */}
+        <RightSpotlight className="top-10 -right-60 h-screen w-52 md:w-96" fill="white" />
+        <RightSpotlight className="-bottom-10 -right-40 h-full w-52 md:w-96" fill="purple" />
+        <RightSpotlight className="bottom-10 -right-40 h-full w-52 md:w-96" fill="blue" />
       </div>
 
       <div className="absolute top-0 left-0 h-full w-full flex items-center justify-center">
         <div className="absolute top-0 left-0 h-full w-full overflow-hidden">
-          <Boxes className="hidden md:flex w-full h-full opacity-50" />
+          {/* <Boxes className="hidden md:flex w-full h-full opacity-50" /> */}
         </div>
       </div>
 

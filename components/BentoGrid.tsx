@@ -174,17 +174,19 @@ export const BentoGridItem = ({
               {cyberSkills.map(({ id, img, name }) => (
                 <div
                   key={id}
-                  className="relative group p-4 rounded-2xl border border-cyan-400/20 hover:border-cyan-400/60 shadow-[0_0_30px_rgba(0,255,255,0.15)] hover:shadow-[0_0_35px_rgba(0,255,255,0.35)] transition"
+                  className="relative group p-4 rounded-2xl border glassmorphism border-cyan-400/20 hover:border-cyan-400/60 shadow-[0_0_30px_rgba(0,255,255,0.15)] hover:shadow-[0_0_35px_rgba(0,255,255,0.35)] transition"
                 >
-                  <img
-                    src={img}
-                    alt={name}
-                    className="w-10 md:w-14 group-hover:scale-110 transition"
-                  />
+                  <div className="flex flex-col justify-center items-center">
+                    <img
+                      src={img}
+                      alt={name}
+                      className="w-10 h-10 lg:w-16 lg:h-16 group-hover:scale-110 transition"
+                    />
 
-                  <p className="flex items-center justify-center text-center mt-2 text-xs opacity-60 group-hover:opacity-100 transition">
-                    {name}
-                  </p>
+                    <p className="text-center text-xs lg:text-base mt-2 text-md opacity-20 group-hover:opacity-100 transition">
+                      {name}
+                    </p>
+                  </div>
                 </div>
               ))}
             </div>

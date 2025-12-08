@@ -164,7 +164,7 @@ export const cyberSkills = [
   },
   {
     id: 2,
-    name: "Burp",
+    name: "Burp Suite",
     img: "/burpsuite.svg",
   },
   {
@@ -174,13 +174,13 @@ export const cyberSkills = [
   },
   {
     id: 4,
-    name: "Linux",
-    img: "/Linux_logo.svg",
+    name: "Kali Linux",
+    img: "/Kali_icon.svg",
   },
   {
     id: 5,
-    name: "Defensive",
-    img: "/defensive.svg",
+    name: "OWASP",
+    img: "/owasp.svg",
   },
 ];
 
